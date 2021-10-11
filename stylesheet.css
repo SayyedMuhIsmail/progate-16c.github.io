@@ -1,0 +1,125 @@
+/* Project Kelompok 16 C */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Bagian Header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  position :fixed;
+  top :0;
+}
+.logo {
+  width :90px;
+  margin-top :-15px;
+}
+.header-left {
+  float :left;
+}
+.header-right {
+  float :right;
+  background-color :darkblue;
+  transition :all 0.5s;
+}
+.header-right:hover {
+  background-color: rgb(57, 9, 189);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 15px;
+  color: white;
+  display: block;
+}
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+.navbar a{
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 14px 20px 14px 0;
+}
+.navbar a:hover {
+  background-color: rgb(57, 9, 189);
+}
+/* Bagian Main */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 250px 20px 125px 20px;
+  background-image: url(image/1BG.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin: 3px 0 3px 0;
+  font-size: 15px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top :0;
+}
