@@ -74,6 +74,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
+  float: right;
 }
 
 .top-wrapper h1 {
