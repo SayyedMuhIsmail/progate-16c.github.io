@@ -69,7 +69,7 @@ header {
 }
 
 .top-wrapper {
-  padding: 150px 30px 150px 30px;
+  padding: 150px 30px 150px 3000px;
   background-image: url(image/1BG.jpg);
   background-size: cover;
   color: white;
