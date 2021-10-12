@@ -49,6 +49,7 @@ header {
 .navbar {
   overflow: hidden;
   font-family: Arial;
+  padding: 250px 10px 250px 10px
 }
 .navbar a{
   float: right;
@@ -69,7 +70,7 @@ header {
 }
 
 .top-wrapper {
-  padding: 2000px 10px 2000px 10px;
+  padding: 250px 10px 250px 10px;
   background-image: url(image/1BG.jpg);
   background-size: cover;
   color: white;
