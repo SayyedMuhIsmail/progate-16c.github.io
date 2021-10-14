@@ -146,6 +146,8 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  color: white;
+  text-shadow: #F79F1F;
 }
 
 .lesson {
