@@ -123,3 +123,20 @@ header {
   position :fixed;
   top :0;
 }
+
+/* Bagian Body */
+.body {
+background-color: #212523;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
