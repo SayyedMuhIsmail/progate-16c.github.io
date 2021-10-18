@@ -227,7 +227,7 @@ span.menu-icon {
   background-color: red;
   position: relative;
   animation-name: anima;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-iteration-count: 3;
   text-align: center;
 }
